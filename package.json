@@ -1,0 +1,39 @@
+{
+  "name": "lyrictagger",
+  "description": "Automatically add lyrics to music files",
+  "author": "Dave Eddy <dave@daveeddy.com> (http://www.daveeddy.com)",
+  "version": "0.0.0",
+  "repository": {
+    "url": "https://github.com/bahamas10/node-lyrictagger.git",
+    "type": "git"
+  },
+  "main": "./lyrictagger.js",
+  "dependencies": {
+    "posix-getopt": "~1.0.0",
+    "musicmetadata": "~0.2.1",
+    "latest": "~0.1.0",
+    "metalminer": "~0.3.0",
+    "colors": "~0.6.0-1",
+    "async": "~0.2.7",
+    "ent": "0.0.5",
+    "exec": "0.0.6",
+    "unidecode": "~0.1.2"
+  },
+  "devDependencies": {},
+  "optionalDependencies": {},
+  "bin": {
+    "musicnamer": "./lyrictagger.js"
+  },
+  "engines": {
+    "node": "*"
+  },
+  "keywords": [
+    "music",
+    "organize",
+    "mp3",
+    "flac",
+    "lyric",
+    "lyrics",
+    "tvnamer"
+  ]
+}
