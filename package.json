@@ -22,7 +22,7 @@
   "devDependencies": {},
   "optionalDependencies": {},
   "bin": {
-    "musicnamer": "./lyrictagger.js"
+    "lyrictagger": "./lyrictagger.js"
   },
   "engines": {
     "node": "*"
