@@ -207,11 +207,10 @@ function processfile(file, cb) {
 
       function go() {
         writelyrics(file, data, function(err, out, code) {
-          if (out) console.log(out);
-          if (err) console.log(err.red);
           console.log('%s exited with code %s\n',
               command.cyan,
               code ? (''+code).red : (''+code).green);
+          if (code && err) console.log(err.red);
           cb();
         });
       }
