@@ -42,34 +42,6 @@ the file (lyrics snipped for brevity).
 
     write these lyrics to /Users/dave/Downloads/01 Specular Reflection.mp3?
     [y/N]: y
-
-    01 Specular Reflection.mp3  [ 23.69 MB ]
-    -------------------------------------------------------------------------------
-    Time: 11:21 MPEG1, Layer III    [ ~290 kb/s @ 44100 Hz - Joint stereo ]
-    -------------------------------------------------------------------------------
-    ID3 v2.4:
-    title: Specular Reflection      artist: Between the Buried and Me
-    album: The Parallax: Hypersleep Dialogues       year: 2011
-    track: 1
-    Lyrics: [Description: ] [Lang: eng]
-    [Music & lyrics by Between The Buried And Me]
-    [Prospect #1]
-
-    A twisted crash... vibrations forming my personal currency.
-    A lifeline... a sweatbox, the linear mind as one.
-    Who would have thought?
-    ... SNIPPED ...
-
-    Setting lyrics: []: [Music & lyrics by Between The Buried And Me]
-    [Prospect #1]
-
-    A twisted crash... vibrations forming my personal currency.
-    A lifeline... a sweatbox, the linear mind as one.
-    Who would have thought?
-    ... SNIPPED ...
-
-    Writing tag...
-
     eyeD3_script exited with code 0
 
 First, `lyrictagger` gathers and prints the lyrics it finds for the song, and
