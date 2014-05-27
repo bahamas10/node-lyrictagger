@@ -2,7 +2,7 @@
   "name": "lyrictagger",
   "description": "Automatically add lyrics to music files",
   "author": "Dave Eddy <dave@daveeddy.com> (http://www.daveeddy.com)",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "repository": {
     "url": "https://github.com/bahamas10/node-lyrictagger.git",
     "type": "git"
