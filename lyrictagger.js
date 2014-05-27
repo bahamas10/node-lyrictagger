@@ -14,7 +14,7 @@ var path = require('path');
 var util = require('util');
 
 var async = require('async');
-var ent = require('ent');
+var he = require('he');
 var exec = require('exec');
 var getopt = require('posix-getopt');
 var metalminer = require('metalminer');
@@ -227,7 +227,7 @@ function writelyrics(file, lyrics, cb) {
 // encode text for lyrics
 function encode(s) {
   // super hacky html
-  return unidecode(ent.decode(s
+  return unidecode(he.decode(s
     .replace(/<br><br>/g, '\n') // turn multiple <br> into newline
     .replace(/<[^>]+>/g, '') // strip out html
   ) .replace(/\r/g, '') ) // get rid of carriage returns
